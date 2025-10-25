@@ -6,7 +6,7 @@ using Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Emerson Raúl Ventura Castillo. U20241017 Autoevaluación: 9.5
 
 namespace Parcial2POE.Repositorios
 {

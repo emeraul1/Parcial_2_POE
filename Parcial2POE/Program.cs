@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using RepoDb;
 using Microsoft.Data.SqlClient;
-
+//Emerson Raúl Ventura Castillo. U20241017 Autoevaluación: 9.5
 
 
 namespace Parcial2POE

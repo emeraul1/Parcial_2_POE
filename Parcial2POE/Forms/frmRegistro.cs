@@ -14,7 +14,7 @@ using RepoDb;
 using Parcial2POE.UoW;
 using Parcial2POE.Clases;
 using Parcial2POE.Forms;
-
+//Emerson Raúl Ventura Castillo. U20241017 Autoevaluación: 9.5
 namespace Parcial2POE
 {
     public partial class frmRegistro : Form

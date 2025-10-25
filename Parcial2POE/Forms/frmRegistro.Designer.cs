@@ -44,6 +44,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.dgvRegistro = new System.Windows.Forms.DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -60,6 +61,7 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.label8);
             this.splitContainer1.Panel1.Controls.Add(this.txtAsistencia);
             this.splitContainer1.Panel1.Controls.Add(this.txtParcial);
             this.splitContainer1.Panel1.Controls.Add(this.txtLaboratorio);
@@ -85,7 +87,7 @@
             // 
             // txtAsistencia
             // 
-            this.txtAsistencia.Location = new System.Drawing.Point(625, 168);
+            this.txtAsistencia.Location = new System.Drawing.Point(643, 168);
             this.txtAsistencia.Name = "txtAsistencia";
             this.txtAsistencia.Size = new System.Drawing.Size(100, 22);
             this.txtAsistencia.TabIndex = 13;
@@ -93,7 +95,7 @@
             // 
             // txtParcial
             // 
-            this.txtParcial.Location = new System.Drawing.Point(625, 124);
+            this.txtParcial.Location = new System.Drawing.Point(643, 127);
             this.txtParcial.Name = "txtParcial";
             this.txtParcial.Size = new System.Drawing.Size(100, 22);
             this.txtParcial.TabIndex = 12;
@@ -101,7 +103,7 @@
             // 
             // txtLaboratorio
             // 
-            this.txtLaboratorio.Location = new System.Drawing.Point(625, 76);
+            this.txtLaboratorio.Location = new System.Drawing.Point(643, 74);
             this.txtLaboratorio.Name = "txtLaboratorio";
             this.txtLaboratorio.Size = new System.Drawing.Size(100, 22);
             this.txtLaboratorio.TabIndex = 11;
@@ -166,7 +168,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(206, 9);
+            this.label5.Location = new System.Drawing.Point(267, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(419, 32);
             this.label5.TabIndex = 4;
@@ -224,6 +226,16 @@
             this.dgvRegistro.TabIndex = 0;
             this.dgvRegistro.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvRegistro_CellDoubleClick);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(3, 234);
+            this.label8.Name = "label8";
+            this.label8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label8.Size = new System.Drawing.Size(295, 16);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "Para editar alumno haga doble clic en una celda";
+            // 
             // frmRegistro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -263,6 +275,7 @@
         private System.Windows.Forms.TextBox txtApellido;
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtCodigo;
+        private System.Windows.Forms.Label label8;
     }
 }
 
