@@ -1,0 +1,20 @@
+# Ignorar carpetas de Visual Studio
+.vs/
+bin/
+obj/
+packages/
+TestResults/
+*.user
+*.suo
+*.cache
+*.log
+*.dbmdl
+*.pdb
+*.tmp
+*.bak
+*.vspscc
+*.vssscc
+
+# Ignorar configuraciones locales
+*.config.local
+*.env
