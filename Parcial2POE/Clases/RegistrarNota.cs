@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RepoDb;
-
+//Emerson Raúl Ventura Castillo. U20241017 Autoevaluación: 9.5
 namespace Parcial2POE.Clases
 {
     public class RegistrarNota
