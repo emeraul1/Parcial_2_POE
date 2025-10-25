@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using RepoDb;
 using Parcial2POE.Repositorios;
-
+//Emerson Raúl Ventura Castillo. U20241017 Autoevaluación: 9.5
 namespace Parcial2POE.UoW
 {
     public class UnitOfwork : IUnitOfWork
