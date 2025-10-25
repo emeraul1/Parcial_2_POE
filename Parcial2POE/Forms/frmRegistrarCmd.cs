@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//Emerson Raúl Ventura Castillo. U20241017 Autoevaluación: 9.5
 namespace Parcial2POE.Forms
 {
     public partial class frmRegistrarCmd : Form
